@@ -1,0 +1,13 @@
+﻿@model Steps
+
+<div>
+    <h1>Calorie Calculator</h1>
+
+    <form asp-controller="Pedometer" asp-action="StepsToCalories" method="post">
+        <div>
+            <label>Number Steps:</label>
+            <input type="number" name="StepsNumber"/>    
+        </div>
+        <button type="submit" >Calculate</button>
+    </form>
+</div>
